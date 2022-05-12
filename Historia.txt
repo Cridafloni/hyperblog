@@ -3,3 +3,20 @@ Esta es la historia de Cristian
 Cristian tiene 22 años y nació en Colombia
 
 Mañana hablaremos de su vida laboral.
+
+Para saber el nombre del commit: git log --all --graph --decorate --oneline
+
+Para crear tags: git tag -a v0.1 -m "Mensaje" 6679105
+
+Para envia los tags a github: git push origin --tags
+
+Para elimina tags: git tag -d dormido
+ 
+ Para eliminar tagas github: git push origin :refs/tags/dormido
+
+
+ git pull origin main
+
+ git push origin master:main
+
+
