@@ -38,3 +38,9 @@ ssh-add <ruta-id_rsa>
 Posteriormente, hay que proporcionar a GitHub una copia de nuestra llave pública:
 En la ruta: Personal Settings/SSH and GPG keys/SSH keys/hay que copiar el contenido del
 archivo id_rsa.pub que se generó con el comando ssh-keygen.
+
+Stash 
+
+git Stash
+git stash pop 
+git stash branch nombreRama
