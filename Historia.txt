@@ -4,6 +4,8 @@ Cristian tiene 22 años y nació en Colombia
 
 master
 
+Master 2
+
 Mañana hablaremos de su vida laboral.
 
 Para saber el nombre del commit: git log --all --graph --decorate --oneline
