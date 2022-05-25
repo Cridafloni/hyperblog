@@ -44,3 +44,4 @@ Stash
 git Stash
 git stash pop 
 git stash branch nombreRama
+git stash drop --------> Para eliminar el stash
