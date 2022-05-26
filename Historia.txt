@@ -45,3 +45,6 @@ git Stash
 git stash pop 
 git stash branch nombreRama
 git stash drop --------> Para eliminar el stash
+
+git clean --dry-run  para archivos 
+git clean -f 
