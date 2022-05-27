@@ -57,3 +57,17 @@ git reflog
 
 para agregr un archivo al commit anterior por si se olvida agregarlo es algo como "remendar"
 git commit --amend
+
+git log -S "ejemplo" ---> para buscar los commit que tengan esta info 
+
+
+git shortlog -sn --all --no-merges ----> para un historial de colaboración y saber cuantos commits lleva cada persona
+
+Alias 
+git config --global alias.stats "shortlog -sn --all --no-merges"
+
+git blame -c archivo -----> para saber quien hizo cada linea
+git blame archivo -L20,30 -c
+
+git branch -r -----> para ver branch remotas 
+git branch -a -----> todas las branch 
