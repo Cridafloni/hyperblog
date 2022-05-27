@@ -52,3 +52,8 @@ git clean -f
 Cherry 
 git log --oneline  ----> para ver el historial
 git cherry-pick commitid  
+
+git reflog
+
+para agregr un archivo al commit anterior por si se olvida agregarlo es algo como "remendar"
+git commit --amend
